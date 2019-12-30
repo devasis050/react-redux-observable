@@ -1,0 +1,31 @@
+{
+  "name": "react-redux-observable",
+  "version": "1.0.0",
+  "description": "redux observable quick start",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack"
+  },
+  "author": "Deva",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/preset-react": "^7.7.4",
+    "babel-loader": "^8.0.6",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-redux": "^7.1.3",
+    "redux": "^4.0.5",
+    "redux-observable": "^1.2.0",
+    "rxjs": "^6.5.4",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-react"
+    ]
+  }
+}
